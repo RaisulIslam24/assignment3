@@ -47,3 +47,15 @@ function hotelCost(day) {
     }
     return rent;
 }
+
+//Problem-4
+function megaFriend(friends){
+    var maxWord = friends[0];
+    for (var i=0; i<friends.length; i++){
+        var element = friends[i];
+        if(element.length > maxWord.length){
+            maxWord = element;
+        }
+    }
+    return maxWord;
+}
